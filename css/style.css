@@ -42,6 +42,9 @@
     box-sizing: border-box;
   }
   
+  .d-none {
+    display: none !important;
+  }
   
   body {
     margin: 0;
@@ -52,6 +55,10 @@
     color: #6c757d;
     text-align: left;
     background-color: #ffffff;
+  }
+
+  .font-weight-lighter {
+    font-weight: lighter !important;
   }
 
   
@@ -206,6 +213,11 @@
     }
   }
 
+  .pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+}
+
 
 
   .bg-primary {
@@ -234,6 +246,9 @@
     display: flex !important;
   }
 
+  .justify-content-lg-start {
+    justify-content: flex-start !important;
+  }
   
   .justify-content-center {
     justify-content: center !important;
