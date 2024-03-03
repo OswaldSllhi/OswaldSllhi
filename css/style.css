@@ -1,10 +1,4 @@
-****** Bootstrap Theming *******
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -43,7 +37,7 @@
   }
   
   .d-none {
-    display: none !important;
+    display: none ;
   }
   
   body {
@@ -58,7 +52,7 @@
   }
 
   .font-weight-lighter {
-    font-weight: lighter !important;
+    font-weight: lighter ;
   }
 
   
@@ -215,56 +209,56 @@
 
   .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 3rem ;
 }
 
 
 
   .bg-primary {
-    background-color: #0BCEAF !important;
+    background-color: #0BCEAF ;
   }
   
   
   .border-white {
-    border-color: #fff !important;
+    border-color: #fff ;
   }
   
   .rounded {
-    border-radius: 0.25rem !important;
+    border-radius: 0.25rem ;
   }
   
   .rounded-circle {
-    border-radius: 50% !important;
+    border-radius: 50% ;
   }
   
   .d-inline {
-    display: inline !important;
+    display: inline ;
   }
 
   
   .d-flex {
-    display: flex !important;
+    display: flex ;
   }
 
   .justify-content-lg-start {
-    justify-content: flex-start !important;
+    justify-content: flex-start ;
   }
   
   .justify-content-center {
-    justify-content: center !important;
+    justify-content: center ;
   }
 
   .align-items-center {
-    align-items: center !important;
+    align-items: center ;
   }
   
 
   .position-relative {
-    position: relative !important;
+    position: relative ;
   }
   
   .position-absolute {
-    position: absolute !important;
+    position: absolute ;
   }
 
   
@@ -277,40 +271,40 @@
   }
   
   .shadow-sm {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) ;
   }
 
   .w-100 {
-    width: 100% !important;
+    width: 100% ;
   }
   
   
   .text-center {
-    text-align: center !important;
+    text-align: center ;
   }
   
   
   @media (min-width: 992px) {
     .text-lg-left {
-      text-align: left !important;
+      text-align: left ;
     }
   }
   
   .text-uppercase {
-    text-transform: uppercase !important;
+    text-transform: uppercase ;
   }
   
   .text-white {
-    color: #fff !important;
+    color: #fff ;
   }
   
   .text-primary {
-    color: #0BCEAF !important;
+    color: #0BCEAF ;
   }
   
   
   .text-secondary {
-    color: #6c757d !important;
+    color: #6c757d ;
   }
   
 
