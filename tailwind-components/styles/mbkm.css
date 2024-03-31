@@ -1701,3 +1701,42 @@ video {
     letter-spacing: -0.05em;
   }
 }
+
+.footer {
+  background-color: #000;
+  min-height: 100px;
+  padding: 20px;
+}
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer-social a:hover {
+  color: #ccc;
+}
+.footer-copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-copyright p {
+  color: #fff;
+  font-size: 14px;
+}
+.footer-copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-copyright a:hover {
+  color: #ccc;
+} 
